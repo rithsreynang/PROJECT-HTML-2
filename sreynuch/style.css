@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: aqua;
+    display: flex;
+    margin-top: 3%;
+    padding-left:18%;
+}
+form{
+    border-radius: 10px;
+    display: flex;
+}
+.form-info{
+    background-color: rgb(35, 156, 204);
+    width: 40%;
+    height: 90vh;;
+}
+.form-register{
+    background-color: white;
+    width: 40%;
+    height: 90vh;
+}
+.form-info>h1{
+    color: white;
+    margin-top: 12%;
+    padding-left: 8%;
+}
+.form-register>h1{
+    color: rgb(35, 156, 204);
+    margin-top: 12%;
+    padding-left: 8%;
+}
+.form-register>button{
+    color: white;
+}
+p{
+    color: white;
+}
+span{
+    font-weight: bold;
+}
+.form-info>p{
+    width: 90%;
+    margin-top: 8%;
+    padding-left: 8%;
+}
+.form-info>button{
+    background-color: white;
+    width: 34%;
+    height: 7vh;
+    border-radius: 4px 0 4px 0;
+    margin-top: 8%;
+    margin-left: 8%;
+    font-weight: bold;
+    border: none;
+}
+.username , .user-password{
+    height: 10vh;
+    display: flex;
+    margin-top: 4%;
+    padding-left: 5%;
+}
+.user-comfirm-pw{
+    padding-left: 8%;
+}
+.user-email{
+    width: 87%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+}
+.term-condition > p{
+    color: black;
+    font-weight: bold;
+    display: flex;
+}
+.term-condition{
+    display: flex;
+    margin-top: 4%;
+    padding-left: 5%;
+    margin-bottom: 8%;
+}
+button{
+    background-color: rgb(16, 148, 200);
+    width: 25%;
+    height: 6vh;
+    border-radius:5px 0 5px 0;
+    border: none;
+    margin-left: 4%;
+}
+.term-condition>p{
+    margin-top: 4%;
+    padding-left: 5%;
+}
+input{
+    height: 6vh;
+    margin-top: 2%;
+}
+.username{
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
